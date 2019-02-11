@@ -1,5 +1,5 @@
 # Friends-bot
-This bot will help you if you doing SSM and want to check new friends of some people (ID)
+This bot will help you if you doing SSM (e.g.) and want to check new friends of some people (ID)
 
 ```
 npm install 
