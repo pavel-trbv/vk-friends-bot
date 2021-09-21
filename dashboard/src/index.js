@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import Loadable from 'react-loadable'
 import Loading from 'components/Loading'
 import Header from 'components/Header'
+import App from 'components/App'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -23,10 +24,10 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const LoadableApp = Loadable({
-  loader: () => import('components/App'),
-  loading: Loading,
-})
+// const LoadableApp = Loadable({
+//   loader: () => import('components/App'),
+//   loading: Loading,
+// })
 
 const Wrap = props => {
   return (
@@ -35,7 +36,7 @@ const Wrap = props => {
         <title>Friends Checker</title>
       </Helmet>
       <Header></Header>
-      <LoadableApp />
+      <App />
       <GlobalStyle />
     </>
   )
