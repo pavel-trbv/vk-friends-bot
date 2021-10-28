@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import fetch from 'isomorphic-fetch'
 
 import { Label, Input, Button } from 'reactstrap'
 import styled from 'styled-components'

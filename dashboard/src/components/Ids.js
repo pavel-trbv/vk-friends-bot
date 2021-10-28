@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import fetch from 'isomorphic-fetch'
 
 import { Textarea, Button, Label } from 'reactstrap'
 import Loading from 'components/Loading'

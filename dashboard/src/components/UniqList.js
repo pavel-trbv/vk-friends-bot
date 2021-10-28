@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import fetch from 'isomorphic-fetch'
 import styled from 'styled-components'
 
 import { Row, Col } from 'reactstrap'
